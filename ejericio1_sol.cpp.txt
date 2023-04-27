@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+  double num1, num2, resultado;
+  int parte_entera;
+  
+  std::cout << "Ingrese el primer número: ";
+  std::cin >> num1;
+  
+  std::cout << "Ingrese el segundo número: ";
+  std::cin >> num2;
+  
+  resultado= num1 + num2;
+  parte_entera = int(resultado); 
+  
+  std::cout << "La parte entera de la suma es: " << parte_entera << std::endl;
+  
+  return 0;
+}
